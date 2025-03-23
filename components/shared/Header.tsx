@@ -1,11 +1,38 @@
+"use client";
+
 import Link from "next/link";
 
 import Button from "../ui/button";
+import { useEffect, useState } from "react";
+import clsx from "clsx";
 
 const Header = () => {
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setHasScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <header className="w-full fixed z-50 top-0 right-0">
-      <div className="container-base flex items-center justify-between py-4 xl:py-8">
+    <header
+      className={clsx(
+        "w-full fixed z-50 top-0 right-0 transition-all duration-500",
+        hasScrolled && "bg-black/40 backdrop-blur-xl"
+      )}
+    >
+      <div
+        className={clsx(
+          "container-base flex items-center justify-between transition-all duration-500 py-4",
+          hasScrolled && "xl:py-8"
+        )}
+      >
         <div className="flex items-center gap-7">
           <Link href="/" className="font-extrabold text-[25px] xl:text-[30px]">
             X<span className="text-primary">.</span>POWER
