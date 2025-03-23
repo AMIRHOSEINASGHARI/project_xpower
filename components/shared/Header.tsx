@@ -5,7 +5,7 @@ import Button from "../ui/button";
 const Header = () => {
   return (
     <header className="w-full fixed z-50 top-0 right-0">
-      <div className="container mx-auto max-xl:px-6 flex items-center justify-between py-4 xl:py-8">
+      <div className="container-base flex items-center justify-between py-4 xl:py-8">
         <div className="flex items-center gap-7">
           <Link href="/" className="font-extrabold text-[25px] xl:text-[30px]">
             X<span className="text-primary">.</span>POWER

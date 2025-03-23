@@ -14,6 +14,10 @@
 }
 
 @layer utilities {
+  .container-base {
+    @apply container mx-auto max-xl:px-6;
+  }
+
   .heading {
     @apply font-bold text-[20px] lg:text-[34px];
   }
