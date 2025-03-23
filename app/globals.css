@@ -3,6 +3,8 @@
 @theme {
   --color-primary: #684ceb;
   --color-background: #060b25;
+
+  --breakpoint-2xl: initial;
 }
 
 @layer base {
@@ -11,8 +13,12 @@
   }
 }
 
-@layer components {
+@layer utilities {
   .heading {
     @apply font-bold text-[20px] lg:text-[34px];
+  }
+
+  .nav-li {
+    @apply hover:text-primary transition-colors duration-500 cursor-pointer;
   }
 }

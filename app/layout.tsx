@@ -3,6 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 import yekanBakh from "@/fonts";
+import Header from "@/components/shared/Header";
 
 export const metadata: Metadata = {
   title: "X Power | وبسایت تخصصی بدنسازی",
@@ -16,7 +17,8 @@ export default function RootLayout({
   return (
     <html lang="fa" dir="rtl">
       <body className={`${yekanBakh.className} bg-background text-white`}>
-        {children}
+        <Header />
+        <main>{children}</main>
       </body>
     </html>
   );
