@@ -27,13 +27,13 @@ const Hero = () => {
                 گرفتیم دانش و تجربه خود را در اختیار همه علاقه‌مندان به این رشته
                 ورزشی جذاب قرار دهیم.
               </p>
-              <div className="xl:size-[76px] size-[50px] bg-primary rounded-full flex items-center justify-center absolute xl:-top-[50px] -top-[30px] left-[25px]">
+              <div className="xl:size-[76px] size-[50px] group bg-primary rounded-full flex items-center justify-center absolute xl:-top-[50px] -top-[30px] left-[25px]">
                 <Image
                   src="/assets/icons/Award.png"
                   alt="Award"
                   width={40}
                   height={40}
-                  className="xl:size-[38px] size-[28px]"
+                  className="xl:size-[38px] size-[28px] group-hover:scale-110 group-hover:-rotate-10 transition-all duration-500"
                 />
               </div>
             </div>

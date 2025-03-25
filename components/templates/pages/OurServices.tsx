@@ -18,7 +18,7 @@ const OurServices = () => {
           <div
             key={icon}
             className={clsx(
-              "hover:bg-primary hover:border-[#FFFFFF] border border-transparent transition-all duration-500 bg-[#FFFFFF1A] backdrop-blur-[28px] flex flex-col items-center justify-center px-8 py-13 rounded-[15px]",
+              "hover:bg-primary hover:border-[#FFFFFF] hover:scale-105 border border-transparent transition-all duration-500 bg-[#FFFFFF1A] backdrop-blur-[28px] flex flex-col items-center justify-center px-8 py-13 rounded-[15px]",
               isActive ? "" : ""
             )}
           >
