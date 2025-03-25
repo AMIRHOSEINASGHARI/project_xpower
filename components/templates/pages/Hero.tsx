@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="relative">
-      <div className="absolute z-[1] top-0 left-0 right-0 flex justify-center">
+      <div className="absolute z-[1] top-0 xl:-top-50 left-0 right-0 flex justify-center">
         <Image
           src="/assets/linear-shape.png"
           alt="shape"
@@ -18,7 +18,7 @@ const Hero = () => {
             <h1 className="xl:text-[45px] text-[35px] font-extrabold xl:text-justify text-center bg-clip-text text-transparent bg-linear-140 from-[#BDADFF] to-[#FFFFFF]">
               هر آنچه برای رسیدن به اندام ایده آل نیاز دارید
             </h1>
-            <p className="xl:text-[26px] xl:text-justify text-center xl:mb-16 mb-10 max-xl:mt-2 bg-clip-text text-transparent bg-linear-140 from-[#BDADFF] to-[#FFFFFF]">
+            <p className="xl:text-[29px] xl:text-justify text-center xl:mb-16 mb-10 max-xl:mt-2 bg-clip-text text-transparent bg-linear-140 from-[#BDADFF] to-[#FFFFFF]">
               تخصصی ترین وبسایت بدنسازی درایران با مجوز رسمی
             </p>
             <div className="relative bg-[#FFFFFF12] rounded-[15px] border border-[#FFFFFF36] pb-8 pt-10 px-6 backdrop-blur-[28px] mb-5">
