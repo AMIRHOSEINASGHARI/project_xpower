@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa" dir="rtl">
-      <body className={`${yekanBakh.className} bg-background text-white`}>
+      <body
+        className={`${yekanBakh.className} bg-background text-white pb-[1000px] overflow-hidden`}
+      >
         <Header />
         <main>{children}</main>
       </body>

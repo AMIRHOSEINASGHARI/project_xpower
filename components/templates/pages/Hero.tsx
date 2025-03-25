@@ -3,15 +3,17 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="relative">
-      <Image
-        src="/assets/linear-shape.png"
-        alt="shape"
-        width={1500}
-        height={800}
-        className="w-full absolute z-[5] max-w-[1800px] mx-auto top-0 right-0 left-0"
-      />
+      <div className="absolute z-[1] top-0 left-0 right-0 flex justify-center">
+        <Image
+          src="/assets/linear-shape.png"
+          alt="shape"
+          width={1440}
+          height={1102}
+          className="w-[1440px] xl:w-[1700px] h-[800px] xl:h-[1100px] object-cover"
+        />
+      </div>
       <div className="container-base relative pt-25 xl:pt-0 flex flex-col xl:flex-row items-center w-full">
-        <div className="w-full xl:w-[644px] xl:mt-15 max-xl:flex max-xl:flex-1 shrink-0 relative">
+        <div className="w-full xl:w-[644px] xl:mt-15 max-xl:flex max-xl:flex-1 shrink-0 relative z-10">
           <div className="w-full relative z-20">
             <h1 className="xl:text-[45px] text-[35px] font-extrabold xl:text-justify text-center bg-clip-text text-transparent bg-linear-140 from-[#BDADFF] to-[#FFFFFF]">
               هر آنچه برای رسیدن به اندام ایده آل نیاز دارید

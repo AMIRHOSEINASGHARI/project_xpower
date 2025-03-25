@@ -30,7 +30,7 @@ const Header = () => {
       <div
         className={clsx(
           "container-base flex items-center justify-between transition-all duration-500 py-4",
-          hasScrolled && "xl:py-8"
+          hasScrolled ? "xl:py-4" : "xl:py-8"
         )}
       >
         <div className="flex items-center gap-7">
