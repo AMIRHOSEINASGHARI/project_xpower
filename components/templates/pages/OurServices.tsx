@@ -2,8 +2,6 @@ import Image from "next/image";
 
 import { ourServicesCards } from "@/constants";
 
-import clsx from "clsx";
-
 const OurServices = () => {
   return (
     <section className="container-base xl:my-20 my-15">
@@ -14,13 +12,10 @@ const OurServices = () => {
         ما در ایکس پاور چه خدماتی ارائه میکنیم؟
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">
-        {ourServicesCards.map(({ icon, title, text, isActive }) => (
+        {ourServicesCards.map(({ icon, title, text }) => (
           <div
             key={icon}
-            className={clsx(
-              "hover:bg-primary hover:border-[#FFFFFF] hover:scale-105 border border-transparent transition-all duration-500 bg-[#FFFFFF1A] backdrop-blur-[28px] flex flex-col items-center justify-center px-8 py-13 rounded-[15px]",
-              isActive ? "" : ""
-            )}
+            className="hover:bg-primary hover:border-[#FFFFFF] hover:scale-105 border border-transparent transition-all duration-500 bg-[#FFFFFF1A] backdrop-blur-[28px] flex flex-col items-center justify-center px-8 py-13 rounded-[15px]"
           >
             <Image
               src={icon}
