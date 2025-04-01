@@ -1,7 +1,8 @@
-import Hero from "../templates/pages/Hero";
-import OurServices from "../templates/pages/OurServices";
-import ProductsSlider from "../templates/pages/ProductsSlider";
-import Sticker from "../templates/pages/Sticker";
+import Hero from "../templates/pages/home/Hero";
+import OurServices from "../templates/pages/home/OurServices";
+import PracticePlan from "../templates/pages/home/PracticePlan";
+import ProductsSlider from "../templates/pages/home/ProductsSlider";
+import Sticker from "../templates/pages/home/Sticker";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Sticker />
       <OurServices />
       <ProductsSlider />
+      <PracticePlan />
     </>
   );
 };

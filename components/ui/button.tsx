@@ -11,7 +11,7 @@ const Button: FC<ButtonProps> = ({ children, className, ...props }) => {
   return (
     <button
       className={twMerge(
-        "bg-primary text-white rounded-[5px] px-5 py-2.5 max-xl:text-sm",
+        "bg-primary whitespace-nowrap text-white rounded-[5px] px-5 py-2.5 max-xl:text-sm",
         className
       )}
       {...props}
