@@ -21,8 +21,8 @@ const ProductsSlider = () => {
       </p>
       <div className="lg:relative">
         <div className="max-lg:hidden">
-          <div className="w-[250px] h-full bg-linear-90 from-[#060B25] to-[#060B2500] absolute left-0 z-30" />
-          <div className="w-[250px] h-full bg-linear-90 to-[#060B25] from-[#060B2500] absolute right-0 z-30" />
+          <div className="w-[250px] h-full bg-linear-90 from-[#060B25] to-[#060B2500] absolute left-0 z-30 pointer-events-none" />
+          <div className="w-[250px] h-full bg-linear-90 to-[#060B25] from-[#060B2500] absolute right-0 z-30 pointer-events-none" />
         </div>
         <Swiper
           spaceBetween={50}
@@ -48,7 +48,7 @@ const ProductsSlider = () => {
           }}
         >
           {productsList.map(({ id, ...props }) => (
-            <SwiperSlide key={id} className="py-20 -mt-5">
+            <SwiperSlide key={id} className="py-22 -mt-5">
               <ProductCard {...props} />
             </SwiperSlide>
           ))}
