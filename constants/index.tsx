@@ -130,10 +130,48 @@ const newestBlogsList = [
     },
 ];
 
+const socialLinks = [
+    {
+        icon: "/assets/social/telegram.png",
+    },
+    {
+        icon: "/assets/social/instagram.png",
+    },
+    {
+        icon: "/assets/social/whatsapp.png",
+    },
+    {
+        icon: "/assets/social/twitter.png",
+    },
+];
+
+const footerLinks = [
+    {
+        title: "راهنمای مشتریان",
+        links: [
+            "پاسخ به پرسش های متداول",
+            "روش های ارسال کالا",
+            "روش های پرداخت",
+            "قوانین و مقررات",
+        ],
+    },
+    {
+        title: "راهنمای مشتریان",
+        links: [
+            "پاسخ به پرسش های متداول",
+            "روش های ارسال کالا",
+            "روش های پرداخت",
+            "قوانین و مقررات",
+        ],
+    },
+];
+
 export {
     ourServicesCards,
     productsList,
     sliderPagination,
     videosSliderList,
     newestBlogsList,
+    socialLinks,
+    footerLinks,
 };

@@ -24,7 +24,7 @@ const VideosSlider = () => {
             <Swiper
                 effect={"coverflow"}
                 modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
-                className="mySwiper"
+                className="mySwiper video-slider-swiper"
                 initialSlide={4}
                 grabCursor={true}
                 centeredSlides={true}

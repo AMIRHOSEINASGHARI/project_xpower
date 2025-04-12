@@ -1,4 +1,4 @@
-.swiper-slide {
+.video-slider-swiper .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 90%;
@@ -30,27 +30,28 @@
     right: 7%;
 }
 
-.swiper-pagination-fraction,
-.swiper-pagination-custom,
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal {
+.video-slider-swiper .swiper-pagination-fraction,
+.video-slider-swiper .swiper-pagination-custom,
+.video-slider-swiper .swiper-horizontal > .swiper-pagination-bullets,
+.video-slider-swiper .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: 0px;
 }
 
-.swiper-slide-next,
-.swiper-slide-prev {
+.video-slider-swiper .swiper-slide-next,
+.video-slider-swiper .swiper-slide-prev {
     opacity: 0.4;
     transition: all 0.5s ease-in-out;
 }
 
 @media (min-width: 1280px) {
-    .swiper-slide {
+    .video-slider-swiper .swiper-slide {
         width: 83%;
     }
-    .swiper-pagination-fraction,
-    .swiper-pagination-custom,
-    .swiper-horizontal > .swiper-pagination-bullets,
-    .swiper-pagination-bullets.swiper-pagination-horizontal {
+    .video-slider-swiper .swiper-pagination-fraction,
+    .video-slider-swiper .swiper-pagination-custom,
+    .video-slider-swiper .swiper-horizontal > .swiper-pagination-bullets,
+    .video-slider-swiper
+        .swiper-pagination-bullets.swiper-pagination-horizontal {
         left: calc(50% - 310px);
         bottom: 58px;
         width: fit-content;
