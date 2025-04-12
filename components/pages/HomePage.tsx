@@ -3,17 +3,19 @@ import OurServices from "../templates/pages/home/OurServices";
 import PracticePlan from "../templates/pages/home/PracticePlan";
 import ProductsSlider from "../templates/pages/home/ProductsSlider";
 import Sticker from "../templates/pages/home/Sticker";
+import VideosSlider from "../templates/pages/home/VideosSlider";
 
 const HomePage = () => {
-  return (
-    <>
-      <Hero />
-      <Sticker />
-      <OurServices />
-      <ProductsSlider />
-      <PracticePlan />
-    </>
-  );
+    return (
+        <>
+            <Hero />
+            <Sticker />
+            <OurServices />
+            <ProductsSlider />
+            <PracticePlan />
+            <VideosSlider />
+        </>
+    );
 };
 
 export default HomePage;
