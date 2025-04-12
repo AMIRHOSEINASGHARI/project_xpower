@@ -1,4 +1,5 @@
 import Hero from "../templates/pages/home/Hero";
+import NewestBlogs from "../templates/pages/home/NewestBlogs";
 import OurServices from "../templates/pages/home/OurServices";
 import PracticePlan from "../templates/pages/home/PracticePlan";
 import ProductsSlider from "../templates/pages/home/ProductsSlider";
@@ -14,6 +15,7 @@ const HomePage = () => {
             <ProductsSlider />
             <PracticePlan />
             <VideosSlider />
+            <NewestBlogs />
         </>
     );
 };

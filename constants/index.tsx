@@ -106,4 +106,34 @@ const videosSliderList = [
     },
 ];
 
-export { ourServicesCards, productsList, sliderPagination, videosSliderList };
+const newestBlogsList = [
+    {
+        image: "/assets/images/card-1.png",
+        date: "۱۲ ساعت پیش",
+        title: "پولدارترین بدنسازهای تاریخ",
+        content:
+            "صنعت بدنسازی گاهی مرموز به نظر می‌رسد، اگر می‌خواهید بدانید چه افرادی در این صنعت، پول‌های حسابی بدست می‌آورند...",
+    },
+    {
+        image: "/assets/images/card-2.png",
+        date: "۱۵ ساعت پیش",
+        title: "برنامه تمرینی اینتروال چربی سوزی",
+        content:
+            "تمرینات اینتروال (HIIT) موثرترین روش تمرین برای چربی سوزی و حفظ عضلات است. در ادامه سعی می‌کنم درمورد تمرینات اینتروال بیشتر...",
+    },
+    {
+        image: "/assets/images/card-3.png",
+        date: "۲۰ ساعت پیش",
+        title: "چقدر مقدار وزنه انتخاب کنم؟",
+        content:
+            "صنعت بدنسازی گاهی مرموز به نظر می‌رسد، اگر می‌خواهید بدانید چه افرادی در این صنعت، پول‌های حسابی بدست می‌آورند با ما همراه باشید.",
+    },
+];
+
+export {
+    ourServicesCards,
+    productsList,
+    sliderPagination,
+    videosSliderList,
+    newestBlogsList,
+};
